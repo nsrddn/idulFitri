@@ -140,12 +140,12 @@ body {
     }
 
     footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         text-align: center;
         width: 100%;
+        font-weight: bold;
         font-size: smaller;
-        color: rgba(0, 0, 0, 0.4);
-        background-color: transparent;
+        background-color: rgb(240, 192, 130);
     }
 }
