@@ -1,0 +1,151 @@
+body {
+    height: 100vh;
+}
+
+.max {
+    background-color: green;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.salam {
+    display: none;
+}
+
+.max-text {
+    margin-top: 200px;
+}
+
+.ucapan {
+    display: none;
+}
+
+@font-face {
+    font-family: "raily";
+    src: url(fonts/railey/Railey-PersonalUse.ttf);
+}
+
+@media (max-width: 476px) {
+    body {
+        background-image: url(img/bg-4.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .myTooltip {
+        /* display: none; */
+        background: linear-gradient(to top, white, lightblue);
+        height: 100px;
+        left: 24%;
+        top: 0;
+        width: 200px;
+        border-radius: 20px;
+        position: absolute;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .myTooltip .panah {
+        content: "";
+        position: absolute;
+        top: 100%;
+        /* At the bottom of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;
+    }
+
+    .text-slide {
+        width: 100%;
+        line-height: 100px;
+        font-size: 14px;
+    }
+
+    .sapaan {
+        text-transform: capitalize;
+    }
+
+    .salam {
+        display: block;
+        text-align: center;
+        margin-top: 10%;
+        height: 280px;
+        position: relative;
+    }
+
+    .salam img {
+        position: absolute;
+        bottom: 60px;
+        left: 30%;
+        border-radius: 30%;
+    }
+
+    .salam code {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 34%;
+    }
+
+    .max {
+        display: none;
+    }
+
+    .ucapan {
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .salam h1 {
+        font-family: cursive;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: cursive;
+    }
+
+    #btnPlay {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(240, 192, 130);
+    }
+
+    .hadist {
+        margin-top: 20px;
+    }
+    
+    .hadist-text {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    h1 {
+        width: 200px;
+        margin: auto;
+        font-size: 30px;
+        text-align: center;
+        font-family: "raily";
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        font-size: smaller;
+        color: rgba(0, 0, 0, 0.4);
+        background-color: transparent;
+    }
+}
