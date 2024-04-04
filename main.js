@@ -1,4 +1,4 @@
-// const nama = prompt("Masukkan Nama Anda");
+const nama = prompt("Masukkan Nama Anda");
 if (!nama) {
     alert("Masukkan Nama Terlebih Dahulu");
     location.reload();
