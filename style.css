@@ -29,6 +29,11 @@ body {
     src: url(fonts/railey/Railey-PersonalUse.ttf);
 }
 
+@font-face {
+    font-family: "childos-arabic";
+    src: url(fonts/childos-arabic/ChildosArabicDEMO-Light-BF6526371b44256.otf);
+}
+
 @media (max-width: 476px) {
     body {
         background-image: url(img/bg-4.jpeg);
@@ -106,12 +111,12 @@ body {
     }
 
     .salam h1 {
-        font-family: cursive;
+        font-family: 'childos-arabic';
     }
 
     h2 {
         text-align: center;
-        font-family: cursive;
+        font-family: 'raily';
     }
 
     #btnPlay {
