@@ -40,6 +40,7 @@ body {
         background-size: cover;
         background-position: center;
         height: 100vh;
+        user-select: none;
     }
 
     .myTooltip {
@@ -134,6 +135,7 @@ body {
     .hadist-text {
         text-align: center;
         font-size: 14px;
+        font-family: 'childos-arabic';
     }
 
     h1 {
